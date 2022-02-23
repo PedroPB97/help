@@ -22,7 +22,7 @@ span{
 }
 
 body{
-    background-color: #fffbf7;
+    background-color: #00FFFF;
 }
 
 .header {
@@ -79,7 +79,10 @@ body{
   .actions > button{
       color: #fff;
       background-color: #67b54b;
-      padding: 12px 14px 12px 14px;
+      padding-top:12px ;
+      padding-bottom:12px ;
+      padding-right:14px ;
+      padding-left:14px ;
       border: 0px;
       border-radius: 5px;
   }
@@ -91,14 +94,16 @@ body{
   .promo {
     display: flex;
     width: 70%;
-    margin: auto;
     margin: 100px auto;
     align-items: center;
   }
-  .fixed-header {
+
+ .fixed-header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: #fffbf7;
+ 
   }
+  
